@@ -8,3 +8,105 @@ body {
   height: 100%;
   width: 100%;
 }
+main {
+  width: 100%;
+  background-color: antiquewhite;
+  height: 100vh;
+  padding: 5px 30px;
+}
+header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.game-stats {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+}
+.game-stats div {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  align-items: start;
+}
+.game-stats div {
+  font-size: 18px;
+  font-weight: bold;
+}
+#game-area {
+  width: 70%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 458px;
+  gap: 50px;
+}
+.box-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  border-radius: 5px;
+}
+.ball {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.show-ball {
+  background-color: white;
+}
+
+#box1 {
+  background-color: red;
+}
+#box2 {
+  background-color: violet;
+}
+#box3 {
+  background-color: pink;
+}
+#box4 {
+  background-color: yellow;
+}
+#box5 {
+  background-color: blue;
+}
+#box6 {
+  background-color: lime;
+}
+
+.action-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.btn {
+  padding: 8px 15px;
+  background-color: black;
+  border-radius: 10px;
+  font-size: 16px;
+  color: white;
+}

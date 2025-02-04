@@ -9,7 +9,49 @@
 </head>
 
 <body>
+    <main>
+        <header>
+            <h1>Find the ball</h1>
+            <div class="game-stats">
+                <div>
+                    <p>Attempt - </p>
+                    <span id="attempt-left">10</span>
+                </div>
+                <div>
+                    <p>Score - </p>
+                    <span id="score">0</span>
+                </div>
+            </div>
+        </header>
+        <section id="game-area">
+            <div class="box-container">
+                <div id="box1" class="box">
+                    <div id="ball-found" class="ball">1</div>
+                </div>
+                <div id="box2" class="box">
+                    <div id="ball-found" class="ball">2</div>
+                </div>
+                <div id="box3" class="box">
+                    <div id="ball-found" class="ball">3</div>
+                </div>
+            </div>
+            <div class="box-container">
+                <div id="box4" class="box">
+                    <div id="ball-found" class="ball">4</div>
+                </div>
+                <div id="box5" class="box">
+                    <div id="ball-found" class="ball">5</div>
+                </div>
+                <div id="box6" class="box">
+                    <div id="ball-found" class="ball">6</div>
+                </div>
+            </div>
+            <div class="action-btn"><button id="play-again-btn" class="btn" onclick="playAgain()">Play
+                    Again</button><button id="reset-btn" class="btn">Reset</button></div>
 
+        </section>
+
+    </main>
     <script src="./script.js"></script>
 </body>
 
